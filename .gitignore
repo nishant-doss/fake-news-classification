@@ -28,6 +28,9 @@ data/*.csv
 data/*.json
 data/*.zip
 
+# Persistence files (too large for GitHub)
+data/persistence/
+
 # Models
 models/*.h5
 models/*.pkl
