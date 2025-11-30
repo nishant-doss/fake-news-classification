@@ -8,7 +8,13 @@ import pickle
 import numpy as np
 import os
 import joblib
+import sys
 from datetime import datetime
+
+# Add src directory to path for importing custom classes
+sys.path.append('../src')
+sys.path.append('./src')
+sys.path.append('.')
 
 def create_persistence_directory():
     """Create the persistence directory if it doesn't exist"""
