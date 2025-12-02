@@ -1,0 +1,7 @@
+Model,Architecture,Accuracy,Precision,Recall,F1-Score,Parameters,Training Time
+Multi-filter CNN,Deep Learning (CNN),0.9981,1.0,1.0,1.0,2.3M,~6 min
+Bidirectional LSTM,Deep Learning (RNN),0.998,1.0,1.0,1.0,5.6M,~25 min
+Standard CNN,Deep Learning (CNN),0.9977,1.0,1.0,1.0,2.1M,~5 min
+Bag of Words + LR,Classical ML,0.9962,1.0,1.0,1.0,10K,seconds
+TF-IDF + Logistic Regression,Classical ML,0.9892,0.99,0.99,0.99,10K,seconds
+TF-IDF + Naive Bayes,Classical ML,0.9504,0.95,0.95,0.95,10K,seconds

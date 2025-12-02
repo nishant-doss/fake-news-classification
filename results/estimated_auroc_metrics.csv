@@ -1,0 +1,7 @@
+Model,Accuracy,Sensitivity (Recall),Specificity (Est.),Est. AUROC,Balanced Accuracy
+Multi-filter CNN,0.9981,1.0,1.0,1.0,1.0
+Bidirectional LSTM,0.998,1.0,1.0,1.0,1.0
+Standard CNN,0.9977,1.0,1.0,1.0,1.0
+Bag of Words + LR,0.9962,1.0,1.0,1.0,1.0
+TF-IDF + Logistic Regression,0.9892,0.99,0.99,0.99,0.99
+TF-IDF + Naive Bayes,0.9504,0.95,0.95,0.95,0.95
